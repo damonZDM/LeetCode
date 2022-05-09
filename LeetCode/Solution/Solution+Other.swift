@@ -569,3 +569,58 @@ extension Solution {
 //        return array.reduce("") { $0 + $1.reduce("", + ) }
 //    }
 }
+
+extension Solution {
+    /**
+     # 面试题 17.22. 单词转换
+     [LeetCode Link](https://leetcode-cn.com/problems/word-transformer-lcci/)
+     */
+    public func findLadders(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> [String] {
+        if beginWord == endWord {
+            return []
+        }
+        guard wordList.contains(endWord) else {
+            return []
+        }
+        
+        var ans: [String] =  []
+        
+        func backtracking(_ start: String, _ end: String, _ list: [String], _ paths: inout [String]) {
+            guard ans.isEmpty else {
+                return
+            }
+            if start == end {
+                paths.append(end)
+                ans = paths
+                return
+            }
+            for i in 0..<list.count {
+                let s = list[i]
+                if difference(s, start) == 1 {
+                    let count = paths.count
+                    paths.append(start)
+                    var temp = list
+                    temp.remove(at: i)
+                    backtracking(s, end, temp, &paths)
+                    paths.remove(at: count)
+                }
+            }
+        }
+        
+        var paths = [String]()
+        backtracking(beginWord, endWord, wordList, &paths)
+        
+        return ans
+    }
+    
+    private func difference(_ s1: String, _ s2: String) -> Int {
+        let n = s1.count
+        var sum = 0
+        for i in 0..<n {
+            if s1[i] != s2[i] {
+                sum += 1
+            }
+        }
+        return sum
+    }
+}
