@@ -19,3 +19,9 @@ public class TreeNode {
          self.right = right
      }
 }
+
+extension TreeNode: Equatable {
+    public static func == (lhs: TreeNode, rhs: TreeNode) -> Bool {
+        lhs.val == rhs.val && lhs.left == rhs.left && lhs.right == lhs.right
+    }
+}

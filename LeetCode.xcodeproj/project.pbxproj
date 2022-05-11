@@ -41,6 +41,7 @@
 		0D7B906A28263DFB0035A490 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B904928263DFA0035A490 /* ListNode.swift */; };
 		0D7B906B28263DFB0035A490 /* RecentCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B904B28263DFA0035A490 /* RecentCounter.swift */; };
 		0D7B906C28263DFB0035A490 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B904D28263DFA0035A490 /* String++.swift */; };
+		0DC7023F282BAD15009830B6 /* CodeCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7023E282BAD15009830B6 /* CodeCTests.swift */; };
 		0DD409B3282661C1005CB58C /* Solution+954.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD409B1282661C1005CB58C /* Solution+954.swift */; };
 		0DD409B4282661C1005CB58C /* Solution+905.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD409B2282661C1005CB58C /* Solution+905.swift */; };
 		0DD409B628266237005CB58C /* Solution+417.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD409B528266236005CB58C /* Solution+417.swift */; };
@@ -52,6 +53,7 @@
 		0DD409C428289FDE005CB58C /* Solution+546.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD409C328289FDE005CB58C /* Solution+546.swift */; };
 		0DD409C62828B839005CB58C /* Solution+10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD409C52828B839005CB58C /* Solution+10.swift */; };
 		0DD409C82828C2DA005CB58C /* Solution+1752.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD409C72828C2DA005CB58C /* Solution+1752.swift */; };
+		0DD409CA282BA44A005CB58C /* CodeC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD409C9282BA44A005CB58C /* CodeC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,7 @@
 		0D7B904928263DFA0035A490 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		0D7B904B28263DFA0035A490 /* RecentCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentCounter.swift; sourceTree = "<group>"; };
 		0D7B904D28263DFA0035A490 /* String++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String++.swift"; sourceTree = "<group>"; };
+		0DC7023E282BAD15009830B6 /* CodeCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCTests.swift; sourceTree = "<group>"; };
 		0DD409B1282661C1005CB58C /* Solution+954.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Solution+954.swift"; sourceTree = "<group>"; };
 		0DD409B2282661C1005CB58C /* Solution+905.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Solution+905.swift"; sourceTree = "<group>"; };
 		0DD409B528266236005CB58C /* Solution+417.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+417.swift"; sourceTree = "<group>"; };
@@ -113,6 +116,7 @@
 		0DD409C328289FDE005CB58C /* Solution+546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+546.swift"; sourceTree = "<group>"; };
 		0DD409C52828B839005CB58C /* Solution+10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+10.swift"; sourceTree = "<group>"; };
 		0DD409C72828C2DA005CB58C /* Solution+1752.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+1752.swift"; sourceTree = "<group>"; };
+		0DD409C9282BA44A005CB58C /* CodeC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +236,7 @@
 			children = (
 				0D7B904B28263DFA0035A490 /* RecentCounter.swift */,
 				0DD409B928276719005CB58C /* MyQueue.swift */,
+				0DD409C9282BA44A005CB58C /* CodeC.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				0DD409BC28276EA2005CB58C /* MyQueueTests.swift */,
+				0DC7023E282BAD15009830B6 /* CodeCTests.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -370,6 +376,7 @@
 			files = (
 				0D7B905328263DFB0035A490 /* Solution+35.swift in Sources */,
 				0D7B905528263DFB0035A490 /* Solution+14.swift in Sources */,
+				0DD409CA282BA44A005CB58C /* CodeC.swift in Sources */,
 				0D7B906628263DFB0035A490 /* Solution+134.swift in Sources */,
 				0D7B905A28263DFB0035A490 /* Solution+9.swift in Sources */,
 				0D7B905828263DFB0035A490 /* Solution+12.swift in Sources */,
@@ -415,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC7023F282BAD15009830B6 /* CodeCTests.swift in Sources */,
 				0DD409C228289BF1005CB58C /* SolutionTests.swift in Sources */,
 				0D7B902028263DE70035A490 /* LeetCodeTests.swift in Sources */,
 				0DD409BD28276EA2005CB58C /* MyQueueTests.swift in Sources */,
