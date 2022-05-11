@@ -1,5 +1,9 @@
 /**
- * Definition for a binary tree node.
+ * # 449. 序列化和反序列化二叉搜索树
+ * [LeetCode](https://leetcode.cn/problems/serialize-and-deserialize-bst/)
+ *
+ * ```
+ * // Definition for a binary tree node.
  * public class TreeNode {
  *     public var val: Int
  *     public var left: TreeNode?
@@ -10,8 +14,8 @@
  *         self.right = nil
  *     }
  * }
+ * ```
  */
-
 public class Codec {
     // Encodes a tree to a single string.
     public func serialize(_ root: TreeNode?) -> String {
