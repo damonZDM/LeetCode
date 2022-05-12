@@ -624,3 +624,45 @@ extension Solution {
         return sum
     }
 }
+
+extension Solution {
+    /**
+     * # 面试题 16.18. 模式匹配
+     * [LeetCode](https://leetcode.cn/problems/pattern-matching-lcci/)
+     */
+    public func patternMatching(_ pattern: String, _ value: String) -> Bool {
+        var a = ""
+        var b = ""
+        var reg = "^"
+        for w in pattern {
+            switch w {
+            case "a":
+                if a.isEmpty {
+                    reg += "(.*)"
+                    if b.isEmpty {
+                        a = #"\1"#
+                    } else {
+                        a = #"\2"#
+                    }
+                } else {
+                    reg += a
+                }
+            case "b":
+                if b.isEmpty {
+                    reg += "(.*)"
+                    if a.isEmpty {
+                        b = #"\1"#
+                    } else {
+                        b = #"\2"#
+                    }
+                } else {
+                    reg += b
+                }
+            default: break
+            }
+        }
+        reg += "$"
+        let RE = try! NSRegularExpression.init(pattern: reg, options: .allowCommentsAndWhitespace)
+        return RE.numberOfMatches(in: value, options: .reportCompletion, range: NSMakeRange(0, value.count)) >= 1
+    }
+}
