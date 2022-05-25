@@ -279,4 +279,28 @@ extension Solution {
         }
         return dfs(0, 0)
     }
+    
+    /// # 467. 环绕字符串中唯一的子字符串
+    /// [LeetCode](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/)
+    public func findSubstringInWraproundString(_ p: String) -> Int {
+        let n = p.count
+        if n <= 1 { return n }
+        var maps: [String: Int] = [:]
+        var i = 0
+        var pre = (p as NSString).character(at: 0)
+        maps["\(pre)"] = 1
+        for j in 1 ..< n {
+            let cur = (p as NSString).character(at: j)
+            if (Int(cur) - Int(pre) + 26) % 26 == 1 {
+                let key = "\(cur)"
+                maps[key] = max(j - i + 1, maps[key] ?? 0)
+            } else {
+                i = j
+                let key = "\(cur)"
+                maps[key] = max(maps[key] ?? 0, 1)
+            }
+            pre = cur
+        }
+        return maps.reduce(0) { $0 + $1.value }
+    }
 }
