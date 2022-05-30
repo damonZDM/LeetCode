@@ -138,3 +138,36 @@ extension Solution {
         return ans
     }
 }
+
+extension Solution {
+    
+    private struct MyRange: Hashable {
+        var left: Int
+        var right: Int
+        var height: Int
+    }
+    
+    /// # 699. 掉落的方块
+    /// [LeetCode](https://leetcode.cn/problems/falling-squares/)
+    public func fallingSquares(_ positions: [[Int]]) -> [Int] {
+        var ranges: [MyRange] = []
+        var ans: [Int] = []
+        var maxHeight = 0
+        for position in positions {
+            let left = position[0]
+            let height = position[1]
+            let right = left + height
+            var curHeight = height
+            
+            for range in ranges {
+                if range.right > left && range.left < right {
+                    curHeight = max(curHeight, height + range.height)
+                }
+            }
+            ranges.append(MyRange(left: left, right: right, height: curHeight))
+            maxHeight = max(curHeight, maxHeight)
+            ans.append(maxHeight)
+        }
+        return ans
+    }
+}

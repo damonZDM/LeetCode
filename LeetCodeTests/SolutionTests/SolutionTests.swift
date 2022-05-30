@@ -26,6 +26,24 @@ class SolutionTests: XCTestCase {
         XCTAssertTrue(solution.isMatch("aac", "a.*"))
     }
     
+    func test_17() throws {
+//        XCTAssertEqual(solution.letterCombinations("23"), ["ad","ae","af","bd","be","bf","cd","ce","cf"])
+    }
+    
+    func test_18() throws {
+//        XCTAssertEqual(solution.fourSum([1,0,-1,0,-2,2], 0), [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]])
+//        XCTAssertEqual(solution.fourSum([2, 2, 2, 2, 2], 8), [[2, 2, 2, 2]])
+        XCTAssertEqual(solution.fourSum([-3,-1,0,2,4,5], 0), [[-3,-1,0,4]])
+    }
+    
+    func test_20() throws {
+        XCTAssertTrue(solution.isValid_20("{}"))
+        XCTAssertTrue(solution.isValid_20("()[]{}"))
+        XCTAssertFalse(solution.isValid_20("(}"))
+        XCTAssertFalse(solution.isValid_20("([)]"))
+        XCTAssertTrue(solution.isValid_20("{[]}"))
+    }
+    
     func test_436() throws {
         XCTAssertEqual(solution.findRightInterval([[1, 2]]), [-1])
         XCTAssertEqual(solution.findRightInterval([[3,4],[2,3],[1,2]]), [-1,0,1])
@@ -61,6 +79,10 @@ class SolutionTests: XCTestCase {
         
     }
     
+    func test_468() throws {
+        XCTAssertEqual(solution.validIPAddress("f:f:f:f:f:f:f:f"), "IPv6")
+    }
+    
     func test_546() throws {
         XCTAssertEqual(solution.removeBoxes([1,3,2,2,2,3,4,3,1]), 23)
         XCTAssertEqual(solution.removeBoxes([1,1,1]), 9)
@@ -77,6 +99,10 @@ class SolutionTests: XCTestCase {
     func test_675() throws {
         XCTAssertEqual(solution.cutOffTree([[1,2,3],[0,0,0],[7,6,5]]), -1)
         XCTAssertEqual(solution.cutOffTree([[54581641,64080174,24346381,69107959],[86374198,61363882,68783324,79706116],[668150,92178815,89819108,94701471],[83920491,22724204,46281641,47531096],[89078499,18904913,25462145,60813308]]), 57)
+    }
+    
+    func test_699() throws {
+        XCTAssertEqual(solution.fallingSquares([[1, 2], [2, 3], [6, 1]]), [2, 5, 5])
     }
     
     func test_812() throws {
@@ -104,12 +130,24 @@ class SolutionTests: XCTestCase {
         XCTAssertFalse(solution.isAlienSorted(["apple","app"], "abcdefghijklmnopqrstuvwxyz"))
     }
     
+    func test_1021() throws {
+        XCTAssertEqual(solution.removeOuterParentheses("(()())(())"), "()()()")
+        XCTAssertEqual(solution.removeOuterParentheses("(()())(())(()(()))"), "()()()()(())")
+        XCTAssertEqual(solution.removeOuterParentheses("()()"), "")
+    }
+    
     func test_1566() throws {
         let arr = [1, 2, 1, 2, 1,3]
         let m =  2
         let k = 3
         let result = solution.containsPattern(arr, m, k)
         XCTAssertFalse(result, "Test Solution No.1566")
+    }
+    
+    func test_1749() throws {
+        XCTAssertEqual(solution.maxAbsoluteSum([1,-3,2,3,-4]), 5)
+        XCTAssertEqual(solution.maxAbsoluteSum([2,-5,1,-4,3,-2]), 8)
+        XCTAssertEqual(solution.maxAbsoluteSum([-7,-1,0,-2,1,3,8,-2,-6,-1,-10,-6,-6,8,-4,-9,-4,1,4,-9]), 44)
     }
     
     func test_1752() throws {

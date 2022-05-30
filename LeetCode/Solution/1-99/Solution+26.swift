@@ -8,6 +8,7 @@
 import Foundation
 
 extension Solution {
+    /// 26
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         if nums.isEmpty { return 0 }
         var i = 1

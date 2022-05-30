@@ -35,4 +35,18 @@ extension Solution {
         }
         return true
     }
+    
+    /// # 1749. 任意子数组和的绝对值的最大值
+    /// [LeetCode](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/)
+    public func maxAbsoluteSum(_ nums: [Int]) -> Int {
+        var maxNum = 0
+        var minNum = 0
+        var sum = 0
+        for n in nums {
+            sum += n
+            minNum = min(sum, minNum)
+            maxNum = max(sum, maxNum)
+        }
+        return maxNum - minNum
+    }
 }

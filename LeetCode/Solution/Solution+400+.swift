@@ -303,4 +303,41 @@ extension Solution {
         }
         return maps.reduce(0) { $0 + $1.value }
     }
+    
+    /// [468. 验证IP地址](https://leetcode.cn/problems/validate-ip-address/)
+    public func validIPAddress(_ queryIP: String) -> String {
+        if queryIP.contains(":") {
+            let components = queryIP.components(separatedBy: ":")
+            guard components.count == 8 else { return "Neither" }
+            func vaildIPv6Element(_ e: String) -> Bool {
+                guard (1 ... 4).contains(e.count) else { return false }
+                return Int(e, radix: 16) != nil
+            }
+            for e in components {
+                if !vaildIPv6Element(e) {
+                    return "Neither"
+                }
+            }
+            return "IPv6"
+        } else {
+            let components = queryIP.components(separatedBy: ".")
+            guard components.count == 4 else { return "Neither" }
+            func vaildIPv4Element(_ e: String) -> Bool {
+                guard (1 ... 3).contains(e.count) else { return false }
+                guard e == "0" || !e.hasPrefix("0") else {
+                    return false
+                }
+                if let n = Int(e), (0 ... 255).contains(n) {
+                    return true
+                }
+                return false
+            }
+            for e in components {
+                if !vaildIPv4Element(e) {
+                    return "Neither"
+                }
+            }
+            return "IPv4"
+        }
+    }
 }
