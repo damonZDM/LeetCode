@@ -55,6 +55,10 @@
 		0DF544D22844602300A216D4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544D12844602300A216D4 /* Stack.swift */; };
 		0DF544D52844659600A216D4 /* SolutionTest_22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544D42844659600A216D4 /* SolutionTest_22.swift */; };
 		0DF544D728446BD600A216D4 /* Solution+24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544D628446BD600A216D4 /* Solution+24.swift */; };
+		0DF544DA2845AD0000A216D4 /* Offer+114.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544D92845AD0000A216D4 /* Offer+114.swift */; };
+		0DF544DD284708E000A216D4 /* Solution+473.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544DC284708E000A216D4 /* Solution+473.swift */; };
+		0DF544E028470A5E00A216D4 /* SolutionTest_473.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544DF28470A5E00A216D4 /* SolutionTest_473.swift */; };
+		0DF544E228487E2300A216D4 /* Solution+450.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544E128487E2300A216D4 /* Solution+450.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +123,10 @@
 		0DF544D12844602300A216D4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0DF544D42844659600A216D4 /* SolutionTest_22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTest_22.swift; sourceTree = "<group>"; };
 		0DF544D628446BD600A216D4 /* Solution+24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+24.swift"; sourceTree = "<group>"; };
+		0DF544D92845AD0000A216D4 /* Offer+114.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer+114.swift"; sourceTree = "<group>"; };
+		0DF544DC284708E000A216D4 /* Solution+473.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+473.swift"; sourceTree = "<group>"; };
+		0DF544DF28470A5E00A216D4 /* SolutionTest_473.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTest_473.swift; sourceTree = "<group>"; };
+		0DF544E128487E2300A216D4 /* Solution+450.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+450.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,7 +196,7 @@
 				0D7B902C28263DFA0035A490 /* Solution.swift */,
 				0DF544CE28445EC000A216D4 /* 1-99 */,
 				0D7B904428263DFA0035A490 /* Solution+134.swift */,
-				0DD409B72827543F005CB58C /* Solution+400+.swift */,
+				0DF544DB284708C900A216D4 /* 400-499 */,
 				0DD409C328289FDE005CB58C /* Solution+546.swift */,
 				0D7B903028263DFA0035A490 /* Solution+591.swift */,
 				0DC7024B282F3D24009830B6 /* Solution+600+.swift */,
@@ -205,6 +213,7 @@
 				0DC70244282D095F009830B6 /* Solution+2191.swift */,
 				0DC70246282DF3CF009830B6 /* Interview */,
 				0D7B904528263DFA0035A490 /* Solution+Other.swift */,
+				0DF544D82845ACDD00A216D4 /* Offer */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -263,6 +272,7 @@
 			children = (
 				0DD409C128289BF1005CB58C /* SolutionTests.swift */,
 				0DF544D32844655900A216D4 /* 1-99 */,
+				0DF544DE28470A4400A216D4 /* 400-499 */,
 				0DC70242282CFBFF009830B6 /* SolutionTests+Interview.swift */,
 			);
 			path = SolutionTests;
@@ -291,6 +301,32 @@
 				0DF544D42844659600A216D4 /* SolutionTest_22.swift */,
 			);
 			path = "1-99";
+			sourceTree = "<group>";
+		};
+		0DF544D82845ACDD00A216D4 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				0DF544D92845AD0000A216D4 /* Offer+114.swift */,
+			);
+			path = Offer;
+			sourceTree = "<group>";
+		};
+		0DF544DB284708C900A216D4 /* 400-499 */ = {
+			isa = PBXGroup;
+			children = (
+				0DD409B72827543F005CB58C /* Solution+400+.swift */,
+				0DF544E128487E2300A216D4 /* Solution+450.swift */,
+				0DF544DC284708E000A216D4 /* Solution+473.swift */,
+			);
+			path = "400-499";
+			sourceTree = "<group>";
+		};
+		0DF544DE28470A4400A216D4 /* 400-499 */ = {
+			isa = PBXGroup;
+			children = (
+				0DF544DF28470A5E00A216D4 /* SolutionTest_473.swift */,
+			);
+			path = "400-499";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +447,7 @@
 				0D7B905228263DFB0035A490 /* Solution+591.swift in Sources */,
 				0DF544CB2840536700A216D4 /* Solution+17_11.swift in Sources */,
 				0D7B905128263DFB0035A490 /* Solution+713.swift in Sources */,
+				0DF544DD284708E000A216D4 /* Solution+473.swift in Sources */,
 				0D7B906928263DFB0035A490 /* TreeNode.swift in Sources */,
 				0DC7024C282F3D24009830B6 /* Solution+600+.swift in Sources */,
 				0DF544D728446BD600A216D4 /* Solution+24.swift in Sources */,
@@ -430,11 +467,13 @@
 				0D7B906128263DFB0035A490 /* Solution+29.swift in Sources */,
 				0D7B905F28263DFB0035A490 /* Solution+1823.swift in Sources */,
 				0DF544D02844600200A216D4 /* Solution+22.swift in Sources */,
+				0DF544DA2845AD0000A216D4 /* Offer+114.swift in Sources */,
 				0DC70245282D095F009830B6 /* Solution+2191.swift in Sources */,
 				0DC70248282DF40A009830B6 /* Solution+01_05.swift in Sources */,
 				0DF544CD2841B58700A216D4 /* Solution+1000+.swift in Sources */,
 				0D7B906528263DFB0035A490 /* Solution+26.swift in Sources */,
 				0DD409C428289FDE005CB58C /* Solution+546.swift in Sources */,
+				0DF544E228487E2300A216D4 /* Solution+450.swift in Sources */,
 				0D4886C428387B9E00FC33DA /* CountIntervals.swift in Sources */,
 				0D7B905E28263DFB0035A490 /* Solution+1608.swift in Sources */,
 				0D7B905028263DFB0035A490 /* Solution+49.swift in Sources */,
@@ -450,6 +489,7 @@
 				0DC70243282CFBFF009830B6 /* SolutionTests+Interview.swift in Sources */,
 				0DC7023F282BAD15009830B6 /* CodeCTests.swift in Sources */,
 				0D4886C6283887B000FC33DA /* CountIntervalsTests.swift in Sources */,
+				0DF544E028470A5E00A216D4 /* SolutionTest_473.swift in Sources */,
 				0DD409C228289BF1005CB58C /* SolutionTests.swift in Sources */,
 				0DF544D52844659600A216D4 /* SolutionTest_22.swift in Sources */,
 				0D7B902028263DE70035A490 /* LeetCodeTests.swift in Sources */,
