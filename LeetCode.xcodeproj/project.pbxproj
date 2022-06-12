@@ -11,6 +11,11 @@
 		0D4886C2283723C400FC33DA /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4886C1283723C400FC33DA /* Node.swift */; };
 		0D4886C428387B9E00FC33DA /* CountIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4886C328387B9E00FC33DA /* CountIntervals.swift */; };
 		0D4886C6283887B000FC33DA /* CountIntervalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4886C5283887B000FC33DA /* CountIntervalsTests.swift */; };
+		0D56FCDD284F03120099DC1E /* Solution+875.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56FCDC284F03120099DC1E /* Solution+875.swift */; };
+		0D56FCE0284F07A00099DC1E /* SolutionTest_875.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56FCDF284F07A00099DC1E /* SolutionTest_875.swift */; };
+		0D56FCE3285057CC0099DC1E /* Solution+1037.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56FCE2285057CC0099DC1E /* Solution+1037.swift */; };
+		0D56FCE5285445570099DC1E /* Solution+926.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56FCE4285445570099DC1E /* Solution+926.swift */; };
+		0D56FCE7285447A60099DC1E /* SolutionTest_926.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56FCE6285447A60099DC1E /* SolutionTest_926.swift */; };
 		0D7B901B28263DE70035A490 /* LeetCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7B901128263DE70035A490 /* LeetCode.framework */; };
 		0D7B902028263DE70035A490 /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B901F28263DE70035A490 /* LeetCodeTests.swift */; };
 		0D7B902228263DE70035A490 /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7B901428263DE70035A490 /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +40,8 @@
 		0D7B906A28263DFB0035A490 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B904928263DFA0035A490 /* ListNode.swift */; };
 		0D7B906B28263DFB0035A490 /* RecentCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B904B28263DFA0035A490 /* RecentCounter.swift */; };
 		0D7B906C28263DFB0035A490 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B904D28263DFA0035A490 /* String++.swift */; };
+		0DA6143F28558CEF0049D8C0 /* Solution+890.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6143E28558CEF0049D8C0 /* Solution+890.swift */; };
+		0DA6144128558EDC0049D8C0 /* SolutionTest_890.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6144028558EDC0049D8C0 /* SolutionTest_890.swift */; };
 		0DC7023F282BAD15009830B6 /* CodeCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7023E282BAD15009830B6 /* CodeCTests.swift */; };
 		0DC70243282CFBFF009830B6 /* SolutionTests+Interview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC70242282CFBFF009830B6 /* SolutionTests+Interview.swift */; };
 		0DC70245282D095F009830B6 /* Solution+2191.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC70244282D095F009830B6 /* Solution+2191.swift */; };
@@ -59,6 +66,12 @@
 		0DF544DD284708E000A216D4 /* Solution+473.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544DC284708E000A216D4 /* Solution+473.swift */; };
 		0DF544E028470A5E00A216D4 /* SolutionTest_473.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544DF28470A5E00A216D4 /* SolutionTest_473.swift */; };
 		0DF544E228487E2300A216D4 /* Solution+450.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544E128487E2300A216D4 /* Solution+450.swift */; };
+		0DF544E52849C4B200A216D4 /* Solution+829.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544E42849C4B200A216D4 /* Solution+829.swift */; };
+		0DF544E72849C92F00A216D4 /* Solution+31.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544E62849C92F00A216D4 /* Solution+31.swift */; };
+		0DF544EA284B58FA00A216D4 /* Solution+929.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544E9284B58FA00A216D4 /* Solution+929.swift */; };
+		0DF544ED284B5AE500A216D4 /* SolutionTest_929.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544EC284B5AE500A216D4 /* SolutionTest_929.swift */; };
+		0DF544EF284CD3AD00A216D4 /* Solution+478.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544EE284CD3AD00A216D4 /* Solution+478.swift */; };
+		0DF544F1284E25BC00A216D4 /* MyCalendarThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF544F0284E25BC00A216D4 /* MyCalendarThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +89,11 @@
 		0D4886C1283723C400FC33DA /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		0D4886C328387B9E00FC33DA /* CountIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountIntervals.swift; sourceTree = "<group>"; };
 		0D4886C5283887B000FC33DA /* CountIntervalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountIntervalsTests.swift; sourceTree = "<group>"; };
+		0D56FCDC284F03120099DC1E /* Solution+875.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+875.swift"; sourceTree = "<group>"; };
+		0D56FCDF284F07A00099DC1E /* SolutionTest_875.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTest_875.swift; sourceTree = "<group>"; };
+		0D56FCE2285057CC0099DC1E /* Solution+1037.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+1037.swift"; sourceTree = "<group>"; };
+		0D56FCE4285445570099DC1E /* Solution+926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+926.swift"; sourceTree = "<group>"; };
+		0D56FCE6285447A60099DC1E /* SolutionTest_926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTest_926.swift; sourceTree = "<group>"; };
 		0D7B901128263DE70035A490 /* LeetCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7B901428263DE70035A490 /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
 		0D7B901528263DE70035A490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +121,8 @@
 		0D7B904928263DFA0035A490 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		0D7B904B28263DFA0035A490 /* RecentCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentCounter.swift; sourceTree = "<group>"; };
 		0D7B904D28263DFA0035A490 /* String++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String++.swift"; sourceTree = "<group>"; };
+		0DA6143E28558CEF0049D8C0 /* Solution+890.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+890.swift"; sourceTree = "<group>"; };
+		0DA6144028558EDC0049D8C0 /* SolutionTest_890.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTest_890.swift; sourceTree = "<group>"; };
 		0DC7023E282BAD15009830B6 /* CodeCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCTests.swift; sourceTree = "<group>"; };
 		0DC70242282CFBFF009830B6 /* SolutionTests+Interview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolutionTests+Interview.swift"; sourceTree = "<group>"; };
 		0DC70244282D095F009830B6 /* Solution+2191.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+2191.swift"; sourceTree = "<group>"; };
@@ -127,6 +147,12 @@
 		0DF544DC284708E000A216D4 /* Solution+473.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+473.swift"; sourceTree = "<group>"; };
 		0DF544DF28470A5E00A216D4 /* SolutionTest_473.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTest_473.swift; sourceTree = "<group>"; };
 		0DF544E128487E2300A216D4 /* Solution+450.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+450.swift"; sourceTree = "<group>"; };
+		0DF544E42849C4B200A216D4 /* Solution+829.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+829.swift"; sourceTree = "<group>"; };
+		0DF544E62849C92F00A216D4 /* Solution+31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+31.swift"; sourceTree = "<group>"; };
+		0DF544E9284B58FA00A216D4 /* Solution+929.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+929.swift"; sourceTree = "<group>"; };
+		0DF544EC284B5AE500A216D4 /* SolutionTest_929.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTest_929.swift; sourceTree = "<group>"; };
+		0DF544EE284CD3AD00A216D4 /* Solution+478.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solution+478.swift"; sourceTree = "<group>"; };
+		0DF544F0284E25BC00A216D4 /* MyCalendarThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalendarThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +174,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D56FCDE284F077B0099DC1E /* 800-899 */ = {
+			isa = PBXGroup;
+			children = (
+				0D56FCDF284F07A00099DC1E /* SolutionTest_875.swift */,
+				0DA6144028558EDC0049D8C0 /* SolutionTest_890.swift */,
+			);
+			path = "800-899";
+			sourceTree = "<group>";
+		};
+		0D56FCE1285057B10099DC1E /* 1000-1099 */ = {
+			isa = PBXGroup;
+			children = (
+				0DF544CC2841B58700A216D4 /* Solution+1000+.swift */,
+				0D56FCE2285057CC0099DC1E /* Solution+1037.swift */,
+			);
+			path = "1000-1099";
+			sourceTree = "<group>";
+		};
 		0D7B900728263DE70035A490 = {
 			isa = PBXGroup;
 			children = (
@@ -202,8 +246,9 @@
 				0DC7024B282F3D24009830B6 /* Solution+600+.swift */,
 				0D7B902F28263DFA0035A490 /* Solution+713.swift */,
 				0DC7024D2830985F009830B6 /* Solution+800+.swift */,
-				0D4886BF28333D6D00FC33DA /* Solution+900+.swift */,
-				0DF544CC2841B58700A216D4 /* Solution+1000+.swift */,
+				0DF544E32849C49F00A216D4 /* 800-899 */,
+				0DF544E8284B58E700A216D4 /* 900-999 */,
+				0D56FCE1285057B10099DC1E /* 1000-1099 */,
 				0D7B904028263DFA0035A490 /* Solution+1305.swift */,
 				0D7B903728263DFA0035A490 /* Solution+1566.swift */,
 				0D7B903C28263DFA0035A490 /* Solution+1608.swift */,
@@ -236,6 +281,7 @@
 				0DD409B928276719005CB58C /* MyQueue.swift */,
 				0DD409C9282BA44A005CB58C /* CodeC.swift */,
 				0D4886C328387B9E00FC33DA /* CountIntervals.swift */,
+				0DF544F0284E25BC00A216D4 /* MyCalendarThree.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -273,6 +319,8 @@
 				0DD409C128289BF1005CB58C /* SolutionTests.swift */,
 				0DF544D32844655900A216D4 /* 1-99 */,
 				0DF544DE28470A4400A216D4 /* 400-499 */,
+				0D56FCDE284F077B0099DC1E /* 800-899 */,
+				0DF544EB284B5AC100A216D4 /* 900-999 */,
 				0DC70242282CFBFF009830B6 /* SolutionTests+Interview.swift */,
 			);
 			path = SolutionTests;
@@ -287,6 +335,7 @@
 				0D7B904328263DFA0035A490 /* Solution+26.swift */,
 				0D7B903F28263DFA0035A490 /* Solution+29.swift */,
 				0D7B903428263DFA0035A490 /* Solution+30.swift */,
+				0DF544E62849C92F00A216D4 /* Solution+31.swift */,
 				0D7B903128263DFA0035A490 /* Solution+35.swift */,
 				0D7B904128263DFA0035A490 /* Solution+41.swift */,
 				0D7B902E28263DFA0035A490 /* Solution+49.swift */,
@@ -317,6 +366,7 @@
 				0DD409B72827543F005CB58C /* Solution+400+.swift */,
 				0DF544E128487E2300A216D4 /* Solution+450.swift */,
 				0DF544DC284708E000A216D4 /* Solution+473.swift */,
+				0DF544EE284CD3AD00A216D4 /* Solution+478.swift */,
 			);
 			path = "400-499";
 			sourceTree = "<group>";
@@ -327,6 +377,35 @@
 				0DF544DF28470A5E00A216D4 /* SolutionTest_473.swift */,
 			);
 			path = "400-499";
+			sourceTree = "<group>";
+		};
+		0DF544E32849C49F00A216D4 /* 800-899 */ = {
+			isa = PBXGroup;
+			children = (
+				0DF544E42849C4B200A216D4 /* Solution+829.swift */,
+				0D56FCDC284F03120099DC1E /* Solution+875.swift */,
+				0DA6143E28558CEF0049D8C0 /* Solution+890.swift */,
+			);
+			path = "800-899";
+			sourceTree = "<group>";
+		};
+		0DF544E8284B58E700A216D4 /* 900-999 */ = {
+			isa = PBXGroup;
+			children = (
+				0D4886BF28333D6D00FC33DA /* Solution+900+.swift */,
+				0D56FCE4285445570099DC1E /* Solution+926.swift */,
+				0DF544E9284B58FA00A216D4 /* Solution+929.swift */,
+			);
+			path = "900-999";
+			sourceTree = "<group>";
+		};
+		0DF544EB284B5AC100A216D4 /* 900-999 */ = {
+			isa = PBXGroup;
+			children = (
+				0D56FCE6285447A60099DC1E /* SolutionTest_926.swift */,
+				0DF544EC284B5AE500A216D4 /* SolutionTest_929.swift */,
+			);
+			path = "900-999";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,18 +526,23 @@
 				0D7B905228263DFB0035A490 /* Solution+591.swift in Sources */,
 				0DF544CB2840536700A216D4 /* Solution+17_11.swift in Sources */,
 				0D7B905128263DFB0035A490 /* Solution+713.swift in Sources */,
+				0DF544EF284CD3AD00A216D4 /* Solution+478.swift in Sources */,
 				0DF544DD284708E000A216D4 /* Solution+473.swift in Sources */,
 				0D7B906928263DFB0035A490 /* TreeNode.swift in Sources */,
 				0DC7024C282F3D24009830B6 /* Solution+600+.swift in Sources */,
 				0DF544D728446BD600A216D4 /* Solution+24.swift in Sources */,
 				0DD409BA28276719005CB58C /* MyQueue.swift in Sources */,
 				0DD409B82827543F005CB58C /* Solution+400+.swift in Sources */,
+				0DF544E72849C92F00A216D4 /* Solution+31.swift in Sources */,
 				0D7B906C28263DFB0035A490 /* String++.swift in Sources */,
 				0D7B906B28263DFB0035A490 /* RecentCounter.swift in Sources */,
+				0DF544EA284B58FA00A216D4 /* Solution+929.swift in Sources */,
 				0D7B905628263DFB0035A490 /* Solution+30.swift in Sources */,
 				0D7B906728263DFB0035A490 /* Solution+Other.swift in Sources */,
+				0DA6143F28558CEF0049D8C0 /* Solution+890.swift in Sources */,
 				0D7B906328263DFB0035A490 /* Solution+41.swift in Sources */,
 				0DC7024A282DFD37009830B6 /* Solution_1800+.swift in Sources */,
+				0D56FCDD284F03120099DC1E /* Solution+875.swift in Sources */,
 				0D4886C028333D6D00FC33DA /* Solution+900+.swift in Sources */,
 				0D7B904E28263DFB0035A490 /* Solution.swift in Sources */,
 				0D4886C2283723C400FC33DA /* Node.swift in Sources */,
@@ -467,6 +551,7 @@
 				0D7B906128263DFB0035A490 /* Solution+29.swift in Sources */,
 				0D7B905F28263DFB0035A490 /* Solution+1823.swift in Sources */,
 				0DF544D02844600200A216D4 /* Solution+22.swift in Sources */,
+				0DF544F1284E25BC00A216D4 /* MyCalendarThree.swift in Sources */,
 				0DF544DA2845AD0000A216D4 /* Offer+114.swift in Sources */,
 				0DC70245282D095F009830B6 /* Solution+2191.swift in Sources */,
 				0DC70248282DF40A009830B6 /* Solution+01_05.swift in Sources */,
@@ -476,9 +561,12 @@
 				0DF544E228487E2300A216D4 /* Solution+450.swift in Sources */,
 				0D4886C428387B9E00FC33DA /* CountIntervals.swift in Sources */,
 				0D7B905E28263DFB0035A490 /* Solution+1608.swift in Sources */,
+				0D56FCE5285445570099DC1E /* Solution+926.swift in Sources */,
+				0DF544E52849C4B200A216D4 /* Solution+829.swift in Sources */,
 				0D7B905028263DFB0035A490 /* Solution+49.swift in Sources */,
 				0DF544D22844602300A216D4 /* Stack.swift in Sources */,
 				0D7B904F28263DFB0035A490 /* Solution+50.swift in Sources */,
+				0D56FCE3285057CC0099DC1E /* Solution+1037.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,12 +576,16 @@
 			files = (
 				0DC70243282CFBFF009830B6 /* SolutionTests+Interview.swift in Sources */,
 				0DC7023F282BAD15009830B6 /* CodeCTests.swift in Sources */,
+				0DF544ED284B5AE500A216D4 /* SolutionTest_929.swift in Sources */,
+				0D56FCE7285447A60099DC1E /* SolutionTest_926.swift in Sources */,
 				0D4886C6283887B000FC33DA /* CountIntervalsTests.swift in Sources */,
 				0DF544E028470A5E00A216D4 /* SolutionTest_473.swift in Sources */,
 				0DD409C228289BF1005CB58C /* SolutionTests.swift in Sources */,
 				0DF544D52844659600A216D4 /* SolutionTest_22.swift in Sources */,
 				0D7B902028263DE70035A490 /* LeetCodeTests.swift in Sources */,
 				0DD409BD28276EA2005CB58C /* MyQueueTests.swift in Sources */,
+				0DA6144128558EDC0049D8C0 /* SolutionTest_890.swift in Sources */,
+				0D56FCE0284F07A00099DC1E /* SolutionTest_875.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
